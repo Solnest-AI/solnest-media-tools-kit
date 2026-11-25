@@ -1,0 +1,5 @@
+{
+  "kit": "media-tools-kit",
+  "title": "Media Tools kit",
+  "tools": ["ffmpeg", "whisper-cpp", "yt-dlp"]
+}

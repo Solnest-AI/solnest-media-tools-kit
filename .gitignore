@@ -1,0 +1,37 @@
+# secrets (this kit needs none, but nothing like this may ever be tracked)
+.env
+.env.*
+!.env.example
+*.token
+tokens.json
+token.json
+credentials/
+keys.env
+cookie.txt
+session.txt
+storage_state.json
+profiles/
+.chrome-profile/
+# speech models and test clips
+whisper-models/
+models/
+ggml-*.bin
+*.wav
+*.aiff
+# caches and environments
+node_modules/
+.venv/
+venv/
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+# os
+.DS_Store
+Thumbs.db
+# updater state and the installed launcher (never part of a release)
+.update-backup/
+.media-tools-kit-files.txt
+bin/
+*.update-tmp
+*.bak*
